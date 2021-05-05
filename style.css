@@ -20,21 +20,57 @@ body{
 .menu-container{
     height: 80%;
     width: 5%;
-    background-color: cyan;
+    background-color: #1a1b1d;
 }
 
 .img-container{
-    background-image: url("./img/profile.jpg");
+    background-image: url("./img/p.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: darkblue;
+    background-color: #191a1c;
     height: 95%;
     width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.name-container{
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(27, 56, 75);
+    gap:5px;
 }
 
 .content-container{
     height: 80%;
     width: 40%;
-    background-color: greenyellow;
+    background-color: #1a1b1d;
+    color: white;
+}
+
+.social img{
+    height: 50px;
+    width: 50px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
 }
